@@ -38,3 +38,7 @@ The GHL newsletter iframe uses form ID `gMBdgS7zAOevqR2bqvjG` and loads GoHighLe
 - Verify privacy policy/terms and unsubscribe/consent requirements before collecting emails; add appropriate footer links when available.
 - Verify Wayfinder credit and link.
 - Replace generic / contact page with an actual email or contact form if Seth supplies one.
+
+
+## Legal pages (October 29, 2026)
+Added `/privacy-policy`, `/terms-of-service`, `/sms-opt-in-policy`, and `/anti-spam-policy`, linked from every page footer. These routes are directories containing `index.html` to support clean URLs on Vercel. Review actual SMS opt-in form checkbox language, STOP/HELP support, analytics/cookie configuration, physical mailing address requirements for email, vendor practices, and legal identity prior to publication. This release does not modify the embedded GHL form or establish SMS consent by itself.
